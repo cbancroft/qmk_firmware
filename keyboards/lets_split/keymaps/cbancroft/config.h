@@ -29,6 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                                     //#define IGNORE_STUCK_MODIFIERS
 #define PREVENT_STUCK_MODIFIERS
 #define TAPPING_TOGGLE 1
+#define TAPPING_TERM 175
                                     //#define TAPPING_TERM 300
 #define ONESHOT_TAP_TOGGLE 2
 #define ONESHOT_LAYER_TOGGLE 2
