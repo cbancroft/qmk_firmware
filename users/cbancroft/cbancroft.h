@@ -311,19 +311,19 @@ enum custom_keycodes {
 
 /* Games
  * ,-----------------------------------------------------------------------------------.
- * | Esc  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | Bksp |
+ * | Esc  |   Q  |   W  |   E  |   R  |   T  |  F1  |  F2  |  F3  |  F4  |  F5  | Home |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * | Tab  |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   ;  |  '   |
+ * | Tab  |   A  |   S  |   D  |   F  |   G  |   1  |   2  |   3  |   4  |   5  | End  |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * | Shift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   /  |Enter |
+ * | Shift|   Z  |   X  |   C  |   V  |   B  |   6  |   7  |   8  |   9  |   0  |Enter |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Ctrl | GUI  |  Alt |Adjust|Symbol|Space |Space |Raise | Left | Down |  Up  |Right |
+ * | Ctrl | Alt  | PgUp | PgDn |Symbol|Space |Space |Raise | Left | Down |  Up  |Right |
  * `-----------------------------------------------------------------------------------'
  */
 #define GAMES_ORTHO  \
-  KC_ESC,   _________________GAMES_L1_________________, _________________GAMES_R1_________________, KC_BSPC, \
-  KC_TAB,   _________________GAMES_L2_________________, _________________GAMES_R2_________________, KC_QUOT, \
+  KC_ESC,   _________________GAMES_L1_________________, _________________GAMES_R1_________________, KC_HOME, \
+  KC_TAB,   _________________GAMES_L2_________________, _________________GAMES_R2_________________, KC_END, \
   KC_LSFT,  _________________GAMES_L3_________________, _________________GAMES_R3_________________, KC_ENT , \
-  KC_LCTRL, KC_LGUI, KC_LALT, RAISE,  RAISE,  KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+  KC_LCTRL, KC_LALT, KC_PGUP, KC_PGDN, SYMBOL,  KC_SPC,  KC_SPC,  RAISE, KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT
 
 #endif // !USERSPACE
